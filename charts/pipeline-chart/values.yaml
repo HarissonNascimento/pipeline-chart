@@ -1,0 +1,25 @@
+image:
+  repository: pipeline-app
+  tag: local
+  pullPolicy: Never
+
+instances:
+  - name: pipeline-app-1
+    port: 8081
+    wave: 0
+
+  - name: pipeline-app-2
+    port: 8082
+    wave: 1
+
+  - name: pipeline-app-3
+    port: 8083
+    wave: 1
+
+  - name: pipeline-app-4
+    port: 8084
+    wave: 2
+
+  - name: pipeline-app-5
+    port: 8085
+    wave: 2
