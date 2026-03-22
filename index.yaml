@@ -3,12 +3,12 @@ entries:
   pipeline-chart:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-22T16:05:48.137427589-03:00"
+    created: "2026-03-22T17:54:15.978851-03:00"
     description: A Helm chart for Kubernetes
-    digest: 7ae8651a411a64e9dc039d9323e278c34777b2d00daf624522395c043715e9be
+    digest: 2c19e0733b4446053da3882096c327eb48dfab9d2f6cdd5e6817444dd1a4ba6c
     name: pipeline-chart
     type: application
     urls:
-    - https://harissonnascimento.github.io/pepiline-chart/pipeline-chart-0.1.0.tgz
+    - https://harissonnascimento.github.io/pipeline-chart/pipeline-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2026-03-22T16:05:48.137256035-03:00"
+generated: "2026-03-22T17:54:15.978851-03:00"
