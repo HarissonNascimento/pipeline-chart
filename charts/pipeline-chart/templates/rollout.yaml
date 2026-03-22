@@ -3,8 +3,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   name: {{ .name }}
-  annotations:
-    argocd.argoproj.io/sync-wave: "{{ .wave }}"
 spec:
   replicas: 1
 
@@ -35,6 +33,5 @@ spec:
     canary:
       steps:
         - setWeight: 100
-        - pause: {}
 ---
 {{- end }}
